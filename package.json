@@ -1,0 +1,14 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "description": "particles.js demo",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}

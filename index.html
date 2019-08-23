@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Particle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <header>
+        <div id="particles-js">
+            <form>
+                <div class="box">
+                    <select>
+                    <option value="default" selected>Default</option>
+                    <option value="spiderman">SpiderMan</option>
+                    <option value="mermaid">Little Mermaid</option>
+                    <option value="got">Winter is Coming</option>           
+                    </select>
+                    <form class="boxLabel">
+                        <label for="number">No of Particles</label>
+                        <input name="default" id="number" type="text">
+                    </form> 
+                    <select id="dotShape">
+                        <option value="circle" selected>Shape</option>
+                        <option value="circle">circle</option>
+                        <option value="edge">edge</option>
+                        <option value="triangle">triangle</option>
+                        <option value="polygon">polygon</option>
+                        <option value="star">star</option> 
+                    </select>
+                    <select id="shapeColor">
+                        <option selected>Shape Color</option>
+                        <option value="#FFFFFF">White</option>
+                        <option value="#000000">Black</option>       
+                    </select>
+                    <form class="lineLinkedContainer">
+                        <label for="lineLinked">Line Linked?</label>
+                        <input name="checkbox" id="lineLinked" type="checkbox">
+                    </form> 
+                    <select id="lineColor">
+                        <option value="#ffffff" selected>Line Color</option>
+                        <option value="#ffffff">White</option>
+                        <option value="#000000">Black</option>       
+                    </select>
+                    <select id="direction">
+                        <option value="none" selected>Direction</option>
+                        <option value="none">none</option>
+                        <option value="top">top</option>
+                        <option value="top-right">top-right</option>
+                        <option value="right">right</option>
+                        <option value="bottom-right">bottom-right</option>
+                        <option value="bottom">bottom</option>
+                        <option value="bottom-left">bottom-left</option>
+                        <option value="left">left</option>
+                        <option value="top-left">top-left</option>         
+                    </select>
+                    <select id="mode">
+                        <option value="grab" selected>Mode</option>
+                        <option value="grab">grab</option>
+                        <option value="bubble">bubble</option>
+                        <option value="repulse">repulse</option></select>
+                </div>
+            </form>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="../particle/node_modules/particles.js/particles.js"></script>
+    
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
