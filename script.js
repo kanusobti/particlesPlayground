@@ -131,7 +131,7 @@ let obj = JSON.parse(particlesJson);
 // SET NUMBER OF PARTICLES TEXT CHANGE EVENT HANDLER
 $('#number').on('input', function() {
   numberParticles= $('#number').val();//10
-  if numberParticles > 100
+  if (numberParticles > 100)
   	numberParticles = 80;
   console.log(obj["particles"].number.value);//80
   obj["particles"].number.value = numberParticles;
